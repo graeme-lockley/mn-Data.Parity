@@ -1,7 +1,7 @@
 //- The interface `Parity` defines equality `(==)` and inequality `(!=)`.  This interface is implemented on the
 //- majority of non-native data-types.
 //-
-//- ```java
+//- ```haskell
 //- interface Parity a
 //-     (==) :: a -> Bool
 //-     (!=) :: a -> Bool
