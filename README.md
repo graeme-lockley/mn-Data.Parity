@@ -4,10 +4,10 @@ majority of non-native data-types.
 
 ```haskell
 interface Parity a
-(==) :: a -> Bool
-(!=) :: a -> Bool
-(!=) y =
-! (this.(==) y)
+    (==) :: a -> Bool
+    (!=) :: a -> Bool
+    (!=) y =
+        ! (this.(==) y)
 ```
 
 ### default$NOT$EQUAL
