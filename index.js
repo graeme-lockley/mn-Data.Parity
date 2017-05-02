@@ -11,8 +11,8 @@
 
 
 
-// A default implementation for (!=).
-//- Parity a => (!=) :: a -> Bool
+//- A default implementation for (!=).
+//= Parity a => default$NOT$EQUAL :: a -> Bool
 function default$NOT$EQUAL(other) {
     return !this.$EQUAL$EQUAL(other);
 }
